@@ -122,7 +122,7 @@ export default function Index() {
   return (
     <>
       {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-      <audio ref={audioRef} controls src="/output.mp3"></audio>
+      <audio ref={audioRef} controls src="/output1.mp3"></audio>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "4px" }}>
         {text.split(" ").map((text, index) => {
           return (
